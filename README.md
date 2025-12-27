@@ -4,8 +4,8 @@ This program:
 * Prepares the data
 * Performs machine learning
 * Performs deep learning
-* Performs XAI\
-Information about data used in this model:
+* Performs XAI
+Information about data used in this model:\
 * Ecommerce Customer Behavior Dataset
 * 50,000 records (customers)
 * 25 columns
