@@ -7,6 +7,8 @@ Besides that, this classification may help companies to check what factors are s
 * Prepares the data
   * Cleanup
   * Encoding
+  * StandardScaler
+  * BatchNormalization
 * Analyzes the data
   * Correlation heatmap
   * Histogram
@@ -17,8 +19,9 @@ Besides that, this classification may help companies to check what factors are s
   * SVM linear
   * XGBoost
 * Performs deep learning
-  * Activation: SeLU, Sigmoid
+  * Activation: Leaky ReLU, Sigmoid
   * Dropout
+  * ModelCheckpoint, EarlyStopping, ReduceLROnPlateau
 * Performs XAI SHAP on machine and deep learning models
 ### Information about data used in this model:
 * Ecommerce Customer Behavior Dataset
